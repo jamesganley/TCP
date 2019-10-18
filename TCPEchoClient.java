@@ -9,7 +9,7 @@ import java.net.*;
 
 /**
  *
- * @author cmuntean
+ * @author JGanley
  */
 public class TCPEchoClient
 {
@@ -48,6 +48,9 @@ public class TCPEchoClient
             out.println(message); 		//Step 3.
             response = in.readLine();		//Step 3.
             System.out.println("\nSERVER> " + response);
+            System.out.println("\n ");
+            System.out.println("\nEnter STOP to terminate the server");
+            System.out.println("\n ");
 	}while (!message.equalsIgnoreCase("stop"));
     }
     catch(IOException e)

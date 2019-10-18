@@ -7,7 +7,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 /**
- * @author cmuntean
+ * @author JGanley
  */
 public class TCPEchoServer
 {
